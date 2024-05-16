@@ -27,3 +27,5 @@
          ?>
     </main>
 <p>Source: index.php </p>
+
+<?php get_footer() ?>
