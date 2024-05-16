@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html <?php language_attributes() ?> >
-<head>
-    <meta <?php bloginfo('charset') ?> >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php bloginfo('name') ?></title>
-   <?php wp_head() ?>
-</head>
+<?php get_header() ?>
+
 <body <?php body_class() ?>>
     <header>
         <div class="wrapper">
@@ -13,7 +7,7 @@
             <p> <?php bloginfo('description') ?> </p>
         </div>
         <?php ?>
-    </header>
+    </header> 
 
     <main>
         <?php 
@@ -32,12 +26,4 @@
         endif;
          ?>
     </main>
-
-<footer>
-    <p>&copy; All Rights Reservrd</p>
-</footer>
-
-    <p>Source: index.php </p>
-    <?php wp_footer() ?>
-</body>
-</html>
+<p>Source: index.php </p>
