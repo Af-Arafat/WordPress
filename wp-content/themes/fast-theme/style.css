@@ -13,3 +13,9 @@ License: GNU General Public License v2 or later
 License URI: https://af-arafat.com/
 Text Domain: My Fast Theme
 */
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  color: red;
+}
